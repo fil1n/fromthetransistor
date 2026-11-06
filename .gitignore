@@ -6,3 +6,4 @@ __pycache__
 # verilog
 obj_dir/
 *.vcd
+sim_build/
