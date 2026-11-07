@@ -11,11 +11,22 @@ VERILOG_TEST_DIR = PROJECT_ROOT / "tests"
 VERILOG_SRC_DIR = PROJECT_ROOT / "verilog"
 
 
-def test_mux2():
+def test_mux2to1():
     run(
         verilog_sources=[os.path.join(VERILOG_SRC_DIR, "mux.v")],
-        toplevel="mux2",
+        toplevel="mux2to1",
         module="verilog.test_mux2",
         python_search=[str(VERILOG_TEST_DIR)],
         always=False,
     )
+
+
+def test_mux8to1():
+    run(
+        verilog_sources=[os.path.join(VERILOG_SRC_DIR, "mux.v")],
+        toplevel="mux8to1",
+        module="verilog.test_mux8",
+        python_search=[str(VERILOG_TEST_DIR)],
+        always=False,
+    )
+    
