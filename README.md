@@ -1,5 +1,13 @@
 ## From the Transistor to the Web Browser
 
+### Foreword & Notes
+Frankly speaking, it is impossible to complete this course starting with zero knowledge of CPU architecture, Verilog, programmers, etc. However, it can be a great journey for software engineers to understand how computers work under the hood. I've decided to make several changes to the course:
+1. Implement an RV32I (not ARM).
+2. Use OCaml instead of Haskell to implement the C compiler.
+3. Implement something other than a web browser (I am not sure what yet).
+4. Geohot mentioned on his stream that he wouldn't "bake" a custom FPGA in the oven (he used Xilinx instead), and I will do the same.
+
+### Original Course Description
 Hiring is hard, a lot of modern CS education is really bad, and it's hard to find people who understand the modern computer stack from first principles.
 
 Now cleaned up and going to be software only. Closer to being real.
