@@ -1,7 +1,7 @@
 ## From the Transistor to the Web Browser
 
 ### Foreword & Notes
-Frankly speaking, it is impossible to complete this course starting with zero knowledge of CPU architecture, Verilog, programmers, etc. However, it can be a great journey for software engineers to understand how computers work under the hood. I've decided to make several changes to the course:
+Frankly speaking, it is impossible to complete this course starting with zero knowledge of CPU architecture, Verilog, software engineering, etc. However, it can be a great journey for software engineers to understand how computers work under the hood. I've decided to make several changes to the course:
 1. Implement an RV32I (not ARM).
 2. Use OCaml instead of Haskell to implement the C compiler.
 3. Implement something other than a web browser (I am not sure what yet).
