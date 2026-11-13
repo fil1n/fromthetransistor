@@ -30,3 +30,13 @@ def test_mux8to1():
         python_search=[str(VERILOG_TEST_DIR)],
         always=False,
     )
+
+
+def test_alu():
+    run(
+        verilog_sources=[os.path.join(VERILOG_SRC_DIR, "alu.sv")],
+        toplevel="alu",
+        module="verilog.test_alu",
+        python_search=[str(VERILOG_TEST_DIR)],
+        always=False,
+    )
