@@ -1,7 +1,5 @@
 import cocotb
-
 from cocotb.triggers import Timer
-
 
 # req1, req2, s1, y
 BOOLEAN_TEST_VECTORS = [
